@@ -1,0 +1,36 @@
+{
+    "name": "vpautoff/victortesttt",
+    "type": "library",
+    "description": "This is the world's best upload package!",
+    "repositories":[
+        {
+            "type":"git",
+            "url":"http://github.com/vpautoff/victortesttt"
+        },
+
+        {
+            "type":"package",
+            "package":{
+                "name":"vpautoff/victortesttt",
+                "version":"1.2.3",
+                "source":{
+                    "type":"git",
+                    "url":"http://github.com/vpautoff/victortesttt",
+                    "reference":"master"
+                },
+                "autoload":{
+                    "classmap":["timer.php"],
+                    "files":["lib_functions.php"]
+                }
+                "autoload":{
+        		"psr-0":{"victortesttt":""}
+    		}
+    
+            }
+        }
+    ],
+
+    "require":{
+        "php":">=5.3.0"
+    }
+}
