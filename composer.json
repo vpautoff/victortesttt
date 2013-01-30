@@ -19,10 +19,6 @@
                     "reference":"master"
                 },
                 "autoload":{
-                    "classmap":["timer.php"],
-                    "files":["lib_functions.php"]
-                }
-                "autoload":{
         		"psr-0":{"victortesttt":""}
     		}
     
